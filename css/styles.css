@@ -113,3 +113,43 @@ p{
     width: 15%;
     margin: 20px 20px 50px ;
 }
+
+/*Call To Action Section*/
+
+#cta{
+    background-color: #ff4c68;
+    padding-top: 5%;
+    text-align: center;
+    color: white;
+}
+.cta-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer Section*/
+#footer{
+    background-color: white;
+    padding: 7% 15%;
+    text-align: center;
+
+}
+.social-icon{
+    margin: 20px 10px;
+}
+
+/* The changes will apply only if the max with is smaller than 1028px*/
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+
