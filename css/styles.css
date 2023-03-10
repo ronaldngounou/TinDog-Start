@@ -64,10 +64,13 @@ p{
 .title-image{
     width: 60%;
     transform: rotate(25deg);
+     /*Set the position to absolute to make sure that the z index get activated*/
 }
 
 #features{
     padding: 7% 15% ;
+    background-color: #fff;
+   
 }
 
 .feature-box{
@@ -77,7 +80,7 @@ p{
 
 .icon{
     color: #ef8172;
-    margin-bottom: 1rem;
+     margin-bottom: 1rem;
 }
 
 .icon:hover{
@@ -96,11 +99,17 @@ p{
 .testimonial-image{
     width: 10%;
     border-radius: 100%;
+    margin: 20px;
 }
 
 
 /* Press Section */
-.press{
+#press{
     text-align: center;
     padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px ;
 }
