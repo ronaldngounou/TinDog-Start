@@ -1,36 +1,51 @@
 body{
     font-family: 'Montserrat-thin', sans-serif;
+    text-align: center;
 }
 
-#title{
-    background-color: #ff4c68;
-    color: #fff;
-}
 
-h1{
-    font-family: 'Montserrat', sans-serif;
-    size: 2.5rem;
-    line-height: 1.5;
-}
-
-h2{
+h1, h2, h3, h4, h5, h6{
     font-family: 'Montserrat', sans-serif ;
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
-h3{
-    font-family: 'Montserrat', sans-serif;
-}
-
-.container-fluid{
-    padding: 3% 15%;
 }
 
 p{
     font-family: 'Montserrat-thin', sans-serif;
     color:#8f8f8f
 }
+
+/*Headings*/
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    size: 3.5rem;
+    line-height: 1.5;
+
+}
+
+/*Containers*/
+.container-fluid{
+    padding: 7% 15%;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+
+title.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+
+
+
+
+
 
 /* Navigation Bar */
 
@@ -41,7 +56,7 @@ p{
 .navbar-brand{
     font-family: "Ubuntu";
     size: 2.5rem;
-    padding-top: bold;
+    font-weight: bold;
 }
 
 .nav-item{
@@ -67,15 +82,13 @@ p{
      /*Set the position to absolute to make sure that the z index get activated*/
 }
 
-#features{
-    padding: 7% 15% ;
-    background-color: #fff;
-   
+
+.feature-title{
+    font-size: 1.5rem;
 }
 
 .feature-box{
-    text-align: center;
-    padding: 5%;
+    padding: 4.5%;
 }
 
 .icon{
@@ -90,8 +103,6 @@ p{
 /* Testimonials Section */
 
 #testimonials{
-    padding: 7% 15%;
-    text-align: center;
     background-color: #ff4c68;
     color: #fff;
 }
@@ -102,10 +113,15 @@ p{
     margin: 20px;
 }
 
+#testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 
 /* Press Section */
 #press{
-    text-align: center;
+    background-color: #ef8172;
     padding-bottom: 3%;
 }
 
@@ -114,12 +130,24 @@ p{
     margin: 20px 20px 50px ;
 }
 
+/*Pricing Section*/
+#pricing{
+    padding: 100px;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 /*Call To Action Section*/
 
 #cta{
     background-color: #ff4c68;
     padding-top: 5%;
-    text-align: center;
     color: white;
 }
 .cta-heading{
@@ -131,8 +159,6 @@ p{
 /* Footer Section*/
 #footer{
     background-color: white;
-    padding: 7% 15%;
-    text-align: center;
 
 }
 .social-icon{
